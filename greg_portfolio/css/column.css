@@ -1,0 +1,71 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+ 
+body {
+   background: #f4f1e5;
+   font-family: helvetica;
+}
+
+#nav {
+	width: 400px;
+	margin: 20px auto;
+	margin-bottom: 0px;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+    margin-left: 1em;
+
+}
+ 
+li a {
+    color: #544738;
+    text-decoration: none;
+    float: left;
+    font-size: 25px;
+    padding: 12px;
+}
+ 
+li a:hover {
+    color: #7eb9be;
+}
+
+li a:hover {
+    -webkit-transform: rotate(-10deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+	-ms-transform: rotate(-10deg) scale(1.2);
+}
+
+.left a:hover {
+     
+    /*Transition*/
+    -webkit-transition:All .5s ease;
+    -moz-transition:All .5s ease;
+    -o-transition:All .5s ease;
+	-ms-transition:All .5s ease;
+     
+    /*Transform*/
+    -webkit-transform: rotate(-10deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+	-ms-transform: rotate(-10deg) scale(1.2);
+}
+ 
+.right a:hover {
+ 
+    /*Transition*/
+    -webkit-transition:All .5s ease;
+    -moz-transition:All .5s ease;
+    -o-transition:All .5s ease;
+	-ms-transition:All .5s ease;
+     
+    /*Transform*/
+    -webkit-transform: rotate(10deg) scale(1.2);
+    -moz-transform: rotate(10deg) scale(1.2);
+    -o-transform: rotate(10deg) scale(1.2);
+	-ms-transform: rotate(10deg) scale(1.2);
+}
